@@ -1,0 +1,190 @@
+body{
+    background-color: grey;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.heading > p {
+    border: 5px solid red;
+    border-radius: 10px;
+    background: white;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(148, 24, 55);
+    padding: 18px 22px;
+    text-shadow: 1px 1px 2px rgb(148 24 55);
+    box-shadow: 6px 6px rgb(105 25 92);
+}
+
+.parent{
+    border: 5px solid green;
+    margin: 0px;
+    width: 99%;
+    height: 625px;
+    position: relative;
+}
+.child{
+    border: 5px solid red;
+    border-radius: 10px;
+    background: white;
+    width: 200px;
+    height: 163px;
+    text-align: center;
+    line-height: 31px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #370D32;
+    padding: 20px 20px;
+    text-shadow: 1px 1px 2px rgb(148 24 55);
+    box-shadow: 6px 6px rgb(105 25 92);
+}
+
+.child1{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.child2 > img{
+    width: 193px;
+    height: 162px;
+}
+
+.child2{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.child3 > p{
+    text-transform: uppercase;
+    margin: 6px 0px;
+}
+
+.child3{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.child4 > p{
+    text-transform: uppercase;
+    margin: 0px 0px;
+}
+
+form > div > p{
+    margin: 0px;
+    font-size: 12px;
+}
+.child4{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+.child4 > label{
+    font-size: 12px;
+}
+
+.input-btn{
+    color: #370D32;
+    background-color: red;
+    border-radius: 15px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.sticky-box{
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: greenyellow;
+    position: fixed;
+    bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35%;
+    width: 409px;
+    text-align: center;
+    
+}
+
+.sticky1{
+    padding: 15px;
+}
+
+.sticky1 > p{
+    margin: 0px;
+    padding-left: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: #370D32;
+}
+
+.sticky2{
+    padding: 15px;
+    
+}
+
+.sticky2 > p{
+    padding-top: 4px;
+    margin: 0px;
+    font-weight: bold;
+    font-style: italic;
+    color: #370D32;
+}
+
+.container{
+    margin-top: 25px;
+    margin-left: 20%;
+    border: 5px solid #370D32;
+    background-color: green;
+    height: 570px;
+    width: 844px;
+}
+
+.container > p{
+    /* border: 1px solid white; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 22px 0px;
+}
+
+.box{
+    margin: 11px;
+    background-color: rgb(224, 224, 94);
+    text-align: center;
+    font-style: italic;
+}
+
+.box > h3{
+    padding: 22px;
+    margin: 0px;
+}
+.box > p{
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.box1{
+    width: 400px;
+    float: left;
+}
+
+.box2{
+    width: 400px;
+    float: right;
+}
+
+.box3{
+    height: 225px;
+    clear: both;
+}
