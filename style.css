@@ -101,6 +101,7 @@ form > div > p{
     cursor: pointer;
 }
 
+/* ----------------------------------------------------------- */
 .sticky-box{
     border: 5px solid red;
     border-radius: 10px;
@@ -140,7 +141,7 @@ form > div > p{
     font-style: italic;
     color: #370D32;
 }
-
+/* ------------------------------------------------------ */
 .container{
     margin-top: 25px;
     margin-left: 20%;
